@@ -1,0 +1,47 @@
+
+
+body{
+  font-family: arial;
+  font-size: 2vw;
+  font-weight: 899;
+  border: solid rgb(100,100,100) 3px;
+  background-color: black
+}
+
+
+#second{ /*pay attention to this. The 'id' function in your regular document is a great way to target specific lines*/
+  font-weight: 100
+}
+
+
+.grey{ /*similar thing as above except it's using a class that lets you target multies things*/
+  color:rgb(100,100,100)
+}
+
+.grey{
+  background-color: #f2ac29;
+}
+
+#one h1{
+  color: #000000;
+}
+
+#two h1{
+  color: #fffa50;
+}
+span{ /*pro tip: you can give id's to spans too*/
+  color: #f2ac29;
+}
+
+hr{
+  border: dotted #f2bf27 2px; /*ex of border styling. Used 'dotted' to make it look like the Mexican border*/
+}
+
+.secondp{
+  background-color: #f2f0eb;
+  color: black
+}
+
+p{
+  color: #bfbdb8;
+}
